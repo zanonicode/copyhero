@@ -1,0 +1,114 @@
+# Platform Dimensions — CopyHero Image Prompting
+# Machine-readable spec: dimensions, aspect ratios, safe zones, and notes per platform.
+# Last updated: 2026-05-04
+
+platforms:
+  hero_square:
+    slug: hero-square
+    label: "Instagram Feed Quadrado"
+    aspect_ratio: "1:1"
+    width_px: 1080
+    height_px: 1080
+    minimum_width_px: 600
+    minimum_height_px: 600
+    safe_zone:
+      top_px: 0
+      bottom_px: 0
+      left_px: 0
+      right_px: 0
+      notes: "No UI overlay on feed images; full bleed safe"
+    notes: >
+      Displayed in feed at ~300px preview width. Bold, clean visuals
+      with centered or rule-of-thirds subject. Most versatile format —
+      also used for Meta Ads feed placements.
+
+  ig_portrait:
+    slug: ig-portrait
+    label: "Instagram Feed Retrato"
+    aspect_ratio: "4:5"
+    width_px: 1080
+    height_px: 1350
+    minimum_width_px: 600
+    minimum_height_px: 750
+    safe_zone:
+      top_px: 0
+      bottom_px: 0
+      left_px: 0
+      right_px: 0
+      notes: "No UI overlay on feed images; full bleed safe"
+    notes: >
+      Takes more vertical space in the feed than 1:1 — higher visual
+      impact per scroll unit. Ideal for portrait shots and lifestyle
+      with person from waist up. Also used in Meta Ads Feed portrait.
+
+  story_vertical:
+    slug: story-vertical
+    label: "Instagram Stories / Reels Vertical"
+    aspect_ratio: "9:16"
+    width_px: 1080
+    height_px: 1920
+    minimum_width_px: 600
+    minimum_height_px: 1067
+    safe_zone:
+      top_px: 250
+      bottom_px: 250
+      left_px: 0
+      right_px: 0
+      content_safe_top_px: 250
+      content_safe_bottom_px: 1670
+      notes: >
+        Top 250px: profile icon and username UI overlay.
+        Bottom 250px: send message / reaction bar.
+        All visual content and text must be within 250-1670px vertical range.
+    notes: >
+      Full-screen immersive format. Consumed in 3-15 seconds.
+      Design for the scroll stop — first impression within 250ms.
+      Also used for Meta Ads Stories and Reels placements.
+
+  reels_cover:
+    slug: reels-cover
+    label: "Capa de Reel (Thumbnail)"
+    aspect_ratio: "9:16"
+    width_px: 1080
+    height_px: 1920
+    minimum_width_px: 600
+    minimum_height_px: 1067
+    safe_zone:
+      top_px: 250
+      bottom_px: 250
+      content_safe_top_px: 250
+      content_safe_bottom_px: 1670
+      grid_crop_center: true
+      notes: >
+        Same UI safe zones as story_vertical.
+        ADDITIONALLY: Cover is cropped to 1:1 for the profile grid.
+        The center 1080x1080 square of the 9:16 is what appears in the grid.
+        Design so subject reads in BOTH 9:16 (full) AND 1:1 (grid crop).
+    notes: >
+      Dual-crop design requirement: center 1:1 crop appears in profile grid;
+      full 9:16 shown when reel is open. Subject must be centered horizontally
+      and within 20-80% of vertical height.
+
+  blog_header:
+    slug: blog-header
+    label: "Blog Header / Email Header"
+    aspect_ratio: "16:9"
+    width_px: 1920
+    height_px: 1080
+    minimum_width_px: 1280
+    minimum_height_px: 720
+    safe_zone:
+      top_px: 0
+      bottom_px: 0
+      left_px: 0
+      right_px: 0
+      mobile_crop_warning: true
+      notes: >
+        On mobile viewports, side edges may be cropped to fit screen width.
+        Keep subject in horizontal center 70% of image.
+        If text overlay: ensure text is in center 60% horizontally.
+    notes: >
+      Horizontal banner format. Also works for LinkedIn articles,
+      Facebook cover-adjacent banners, and email newsletter headers.
+      Design with open space on one side when text will be overlaid
+      in post-production or via CMS template.

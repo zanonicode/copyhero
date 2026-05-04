@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "description": "Exemplo de prompt de imagem gerado pelo image-prompter para a marca Método Ticket Livre (Marina Souza). Hero image para sales page — formato quadrado 1:1. Cores injetadas diretamente de brands/exemplo-marina-design.md.",
+    "brand_file": "brands/exemplo-marina-design.md",
+    "copy_reference": "examples/output-exemplo-sales-page.md",
+    "generated_by": "agent/image-prompter.md",
+    "date": "2026-05-04",
+    "note": "Arquivo fictício demonstrativo — não representa campanha real."
+  },
+
+  "variant": "hero-square",
+  "dimensions": "1080x1080",
+
+  "subject": "Brazilian woman in her early 30s sitting confidently at a minimalist designer's desk, laptop open showing a branding project, a physical portfolio visible on the desk surface, direct eye contact with camera, subtle knowing expression — the look of someone who has figured something out",
+
+  "style": "lifestyle photography, natural light, editorial clean, authentic candid, no overproduction",
+
+  "composition": "rule of thirds, subject positioned in left two-thirds, right third shows clean desk context, medium shot from waist up, shallow depth of field with desk elements soft in background",
+
+  "lighting": "soft natural window light from the left, warm golden tones, no harsh shadows on face, bright and inviting atmosphere",
+
+  "mood": "professional yet approachable, quietly confident, aspirational, warm — the feeling of 'she knows what her work is worth'",
+
+  "colors": {
+    "primary": "#1A1A1A",
+    "secondary": "#F5F3EF",
+    "accent": "#C4714A",
+    "background": "#F5F3EF",
+    "neutral_light": "#E8E8E8",
+    "neutral_dark": "#3D3D3D",
+    "notes": "Brand colors from brands/exemplo-marina-design.md — Preto suave (#1A1A1A), Off-white (#F5F3EF), Terracota (#C4714A), Cinza frio (#E8E8E8), Grafite (#3D3D3D). Warm neutral background and terracota accent visible in desk accessories or clothing detail."
+  },
+
+  "text_overlay": null,
+
+  "technical_params": {
+    "aspect_ratio": "1:1",
+    "quality": "high",
+    "style_preset": "photographic"
+  },
+
+  "negative_prompt": "stock photo look, stiff pose, fake corporate smile, generic office background, fluorescent lighting, overly saturated colors, watermark, blurry, distorted hands, extra limbs, cluttered background"
+}
+
+---
+FLAT VIEW (Midjourney / Stable Diffusion / nano banana):
+Brazilian woman in her early 30s sitting confidently at a minimalist designer's desk, laptop open showing a branding project, physical portfolio visible on desk surface, direct eye contact with camera, subtle knowing expression, lifestyle photography, natural light, editorial clean, authentic candid, rule of thirds medium shot from waist up shallow depth of field, soft natural window light from the left warm golden tones no harsh shadows, professional yet approachable quietly confident aspirational warm mood, color palette: #1A1A1A #F5F3EF #C4714A #E8E8E8 #3D3D3D, square format --ar 1:1 --q 2 --no stock photo look, stiff pose, fake corporate smile, generic office background, fluorescent lighting, watermark, blurry, distorted hands
+
+---
+NOTA DE CORES:
+As cores acima foram extraídas diretamente de brands/exemplo-marina-design.md:
+- Primária: Preto suave #1A1A1A
+- Background: Off-white #F5F3EF
+- Acento: Terracota #C4714A (visível em acessório ou detalhe de roupa)
+- Neutros: Cinza frio #E8E8E8 e Grafite #3D3D3D como suporte
+
+ALINHAMENTO COM COPY:
+A imagem complementa a big idea da sales page "O problema não é o seu preço. É o que você está vendendo." A expressão da persona — confiante, sóbria, com o olhar de quem entendeu algo que os outros ainda não entenderam — ecoa o reposicionamento da oferta sem precisar de texto na imagem.

@@ -1,0 +1,78 @@
+---
+# Platform Specs — CopyHero Toolkit v0.1
+# Limites, convenções e regras por plataforma (mercado BR)
+# Última atualização: 2026-05-04
+
+platforms:
+
+  instagram_post:
+    formato_arquetipo: short-hook-driven
+    limite_caracteres: 2200
+    caracteres_visiveis_sem_expandir: 125
+    hashtags_recomendadas: "3-10 (nicho + alcance)"
+    estrutura_recomendada: "Hook (1-2 linhas) → Corpo (valor/história) → CTA → Hashtags"
+    notas_br: "Emojis funcionam com avatares jovens/informais; evitar com autoridade técnica"
+
+  instagram_reels_legenda:
+    formato_arquetipo: short-hook-driven
+    limite_caracteres: 2200
+    foco: "Legenda é secundária — hook visual/falado nos primeiros 3s é o que retém"
+    estrutura_recomendada: "Hook falado + legenda de reforço curta + CTA no final do vídeo"
+    notas_br: "Primeiros 3 segundos determinam retenção; inicie com conflito ou pergunta"
+
+  instagram_carrossel:
+    formato_arquetipo: short-hook-driven
+    slides_recomendados: "5-10"
+    slide_1: "Hook — razão para deslizar (promessa ou pergunta)"
+    slides_meio: "Desenvolvimento — valor por slide, um ponto por tela"
+    ultimo_slide: "CTA + oferta ou lead magnet"
+    notas_br: "Carrossel de educação converte bem para captura de lead no BR"
+
+  tiktok:
+    formato_arquetipo: short-hook-driven
+    duracao_otima_segundos: "30-60"
+    hook_segundos: 3
+    limite_legenda_caracteres: 2200
+    hashtags_recomendadas: "3-5"
+    notas_br: "Autenticidade > produção; áudio original BR ganha alcance orgânico"
+
+  email:
+    formato_arquetipo: educational-cta
+    assunto_max_caracteres: 50
+    preview_max_caracteres: 90
+    largura_recomendada_px: 600
+    cta_por_email: 1
+    estrutura_recomendada: "Assunto (curiosidade/benefício) → Preview (amplia assunto) → Abertura pessoal → Corpo (valor) → CTA único"
+    notas_br: "Abertura com nome do leitor aumenta open rate; assunto sem clickbait excessivo"
+
+  blog_seo:
+    formato_arquetipo: educational-cta
+    palavras_minimas: 1200
+    palavras_ideais: "1800-2500"
+    h1: "Keyword principal — 1 por artigo"
+    h2_h3: "Subtópicos com variações de keyword"
+    cta: "Inline + ao final — oferta relacionada ao tema do artigo"
+    notas_br: "Parágrafos curtos (2-3 linhas) para leitura mobile; Brazil tem >80% tráfego mobile"
+
+  sales_page:
+    formato_arquetipo: long-form-persuasion
+    palavras_range: "1500-5000 (depende do preço e awareness)"
+    palavras_infoproduto_premium: "3000-5000"
+    estrutura_principal: "Hook → Identificação → Dor → Agitação → Mecanismo → Prova → Oferta → Bônus → Garantia → Urgência → CTA"
+    cta_minimo: 3
+    notas_br: "Prova social BR específica (não genérica) e garantia clara aumentam conversão"
+
+  vsl:
+    formato_arquetipo: long-form-persuasion
+    cadencia: spoken
+    duracao_minutos_range: "15-45"
+    palavras_por_minuto_br: 130
+    estrutura_principal: "Hook falado → Identificação → História → Dor → Agitação → Revelação → Mecanismo → Prova → Oferta → CTA falado"
+    notas_br: "Frases curtas, pausas marcadas no roteiro; evitar parágrafos longos que soem artificiais ao falar"
+
+  landing_page:
+    formato_arquetipo: long-form-persuasion
+    foco: "Uma única ação — captura de lead ou compra direta"
+    palavras_range: "300-1000 (landing curta) ou 1500+ (landing longa)"
+    estrutura_recomendada: "Headline → Subheadline → Benefícios (FAB) → Prova → CTA → Garantia"
+    notas_br: "Above the fold deve conter headline + CTA visível sem scroll"
